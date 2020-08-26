@@ -1,0 +1,11 @@
+name: Coords
+version: ${project.version}
+main: me.akameki.coords.Main
+api-version: 1.16
+authors: [Akameki]
+description: adds a command to give coordinates
+commands:
+  coords:
+    aliases: [xyz, coordinates]
+    description: get current coordinates
+    usage: /<command>
