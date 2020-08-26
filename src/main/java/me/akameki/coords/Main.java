@@ -44,7 +44,6 @@ public final class Main extends JavaPlugin implements CommandExecutor {
             coordsMessage.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new Text("Click to copy")));
             message.addExtra(coordsMessage);
             player.sendMessage(message);
-            player.sendMessage(coordsMessage);
             return true;
         }
         return false;
