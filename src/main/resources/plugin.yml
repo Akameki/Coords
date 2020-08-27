@@ -1,9 +1,9 @@
 name: Coords
-version: ${project.version}
+version: 0.1.0
 main: me.akameki.coords.Main
 api-version: 1.16
 authors: [Akameki]
-description: adds a command to give coordinates
+description: Adds a command to give coordinates
 commands:
   coords:
     aliases: [xyz, coordinates]
